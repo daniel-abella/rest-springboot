@@ -1,4 +1,4 @@
-package br.edu.embedded.zennyworldz.ws.service;
+package br.edu.embedded.samples.ws.service;
 
 import javax.inject.Inject;
 import javax.validation.Valid;
@@ -10,9 +10,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.validation.annotation.Validated;
 
-import br.edu.embedded.zennyworldz.ws.domain.Participant;
-import br.edu.embedded.zennyworldz.ws.repository.ParticipantRepository;
-import br.edu.embedded.zennyworldz.ws.service.exception.ParticipantAlreadyExistsException;
+import br.edu.embedded.samples.ws.domain.Participant;
+import br.edu.embedded.samples.ws.repository.ParticipantRepository;
+import br.edu.embedded.samples.ws.service.exception.ParticipantAlreadyExistsException;
 
 @Service
 @Validated

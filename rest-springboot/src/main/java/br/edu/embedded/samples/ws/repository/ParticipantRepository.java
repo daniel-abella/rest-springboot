@@ -1,10 +1,10 @@
-package br.edu.embedded.zennyworldz.ws.repository;
+package br.edu.embedded.samples.ws.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
-import br.edu.embedded.zennyworldz.ws.domain.Participant;
+import br.edu.embedded.samples.ws.domain.Participant;
 
 public interface ParticipantRepository extends JpaRepository<Participant, String> {
 	

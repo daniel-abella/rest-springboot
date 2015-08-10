@@ -1,6 +1,6 @@
-package br.edu.embedded.zennyworldz.ws.service;
+package br.edu.embedded.samples.ws.service;
 
-import br.edu.embedded.zennyworldz.ws.domain.Participant;
+import br.edu.embedded.samples.ws.domain.Participant;
 
 public interface ParticipantService {
 

@@ -1,4 +1,4 @@
-package br.edu.embedded.zennyworldz.ws.service.exception;
+package br.edu.embedded.samples.ws.service.exception;
 
 public class ParticipantAlreadyExistsException extends RuntimeException {
 

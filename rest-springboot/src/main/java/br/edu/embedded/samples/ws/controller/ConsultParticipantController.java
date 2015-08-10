@@ -1,4 +1,4 @@
-package br.edu.embedded.zennyworldz.ws.controller;
+package br.edu.embedded.samples.ws.controller;
 
 import javax.inject.Inject;
 
@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.edu.embedded.zennyworldz.ws.domain.Participant;
-import br.edu.embedded.zennyworldz.ws.service.ParticipantService;
-import br.edu.embedded.zennyworldz.ws.service.exception.ParticipantAlreadyExistsException;
+import br.edu.embedded.samples.ws.domain.Participant;
+import br.edu.embedded.samples.ws.service.ParticipantService;
+import br.edu.embedded.samples.ws.service.exception.ParticipantAlreadyExistsException;
 
 @RestController
 @RequestMapping("/campaign/{campaign_id}/participant/{email}")

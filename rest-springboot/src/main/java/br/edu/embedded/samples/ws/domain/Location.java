@@ -1,4 +1,4 @@
-package br.edu.embedded.zennyworldz.ws.domain;
+package br.edu.embedded.samples.ws.domain;
 
 import java.io.Serializable;
 
